@@ -9,11 +9,73 @@
         header
         {
             background-color: #1b1b1b;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
+            padding-top: 15px;
             border-bottom: white 1px solid;
             display: flex;
             padding-left: 10%;
+            padding-right: 10%;
             color:white;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #prijava-container
+        {
+            display: flex;
+            gap: 20px;
+        }
+        #prijava
+        {
+            padding: 10px;
+            border: white 1px solid;
+            border-radius: 5px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        #kosarica
+        {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        #logo
+        {
+            height: 35px;
+        }
+        .search-container 
+        {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+        }
+
+        .search-input 
+        {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            width: 500px;
+        }
+
+        .search-input:focus 
+        {
+            border-color: #007BFF;
+        }
+
+        .search-button 
+        {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            background: #404040;
+            color: white;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+        }
+        .search-button:hover 
+        {
+            background: #0056b3;
         }
 
         nav
@@ -71,6 +133,11 @@
         .dropdown-meni:hover .dropbtn
         {
             background-color: #4e4e4e;
+        }
+        a
+        {
+            color:white;
+            text-decoration: none;
         }
         footer
         {

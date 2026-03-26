@@ -1,0 +1,160 @@
+        body
+        {
+            font-family: Arial;
+            padding: 50px;
+            margin:0px;
+            padding:0px;
+        }
+        header
+        {
+            background-color: #1b1b1b;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            border-bottom: 1px white solid;
+            display: flex;
+            padding-left: 12%;
+            padding-right: 12%;
+            color:white;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #prijava-container
+        {
+            display: flex;
+            gap: 20px;
+        }
+        #prijava
+        {
+            padding: 10px;
+            border: white 1px solid;
+            border-radius: 5px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        #kosarica
+        {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        #logo
+        {
+            height: 35px;
+        }
+        .search-container 
+        {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+        }
+
+        .search-input 
+        {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            width: 500px;
+        }
+
+        .search-input:focus 
+        {
+            border-color: #007BFF;
+        }
+
+        .search-button 
+        {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            background: #404040;
+            color: white;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+        }
+        .search-button:hover 
+        {
+            background: #0056b3;
+        }
+
+        nav
+        {
+            background-color: #1b1b1b;
+            padding-left:12%;
+            padding-right:12%;
+        }
+        .dropdown-meni
+        {
+            position: relative;
+            display: inline;
+            
+        }
+        .dropdown-zunanji
+        {
+            display: flex;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            gap: 30px;
+            align-items: center;
+        }
+        .dropbtn
+        {
+            background-color:#1b1b1b;
+            color: white;
+            padding: 8px 16px;
+            font-size: 16px;
+            border: solid #404040;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 175px;
+        }
+        .dropdown-content 
+        {
+            display: none;
+            position: absolute;
+            background-color:#1b1b1b;
+            min-width: 172px;
+            border-radius: 5px;
+            border:#404040 solid;
+        }
+        .dropdown-content a
+        {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover
+        {
+            background-color: #404040;
+        }
+        .dropdown-meni:hover .dropdown-content
+        {
+            display: block;
+        }
+        .dropdown-meni:hover .dropbtn
+        {
+            background-color: #4e4e4e;
+        }
+        a
+        {
+            color:white;
+            text-decoration: none;
+        }
+                footer
+        {
+            background-color: #1b1b1b;
+            padding: 20px;
+            padding-left: 12%;
+            padding-right: 12%;
+            color: white;
+        }
+        main
+        {
+            padding-left: 12%;
+            padding-right: 12%;
+        }
+        #album
+        {
+            
+        }

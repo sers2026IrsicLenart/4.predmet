@@ -142,11 +142,17 @@
             color:white;
             text-decoration: none;
         }
-        #albumi1
+        .album-cover
         {
-            display: flex;
-            justify-content: space-between;
-            align-items: center top;
+            height: 220px;
+            width: 220px;
+            align-items: center;
+        }
+        .albumi-display
+        {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 20px;
             margin-top: 20px;
             margin-bottom: 20px;
         }
@@ -156,17 +162,34 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-
+            width: 220px;
+            
         }
         .album-desc
         {
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-bottom: 5%;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
             color: #4e4e4e;
+            padding: 15px;
+        }
+        .album-opis
+        {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            margin-bottom: 24px;
+        }
+        .album-opis p
+        {
+            margin-top: 8px;
+            margin-bottom: 8px;
         }
         .album-naslov
         {
+            margin-top: 0px;
+            margin-bottom: 8px;
             color: #1b1b1b;
             font-weight: bold;
         }
@@ -185,7 +208,20 @@
             padding: 5%;
             text-align: center;
         }
-
+        .albumi-napis
+        {
+            display:flex;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .albumi-napis div
+        {
+            background-color: #1b1b1b;
+            color: white;
+            padding: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
         footer
         {
             background-color: #1b1b1b;

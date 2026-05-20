@@ -2,12 +2,15 @@
         body
         {
             font-family: Arial;
-            padding: 50px;
             margin:0px;
             padding:0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header
-        {
+        {   
             background-color: #1b1b1b;
             padding-bottom: 15px;
             padding-top: 15px;
@@ -35,6 +38,7 @@
             padding-right: 2%;
             padding-bottom: 40px;
             background-color: white;
+            flex: 1;
         }
         #prijava-container
         {
@@ -332,6 +336,10 @@
             margin-bottom: 9px;
             font-size: 18px
         }
+        #search-filter div a
+        {
+            color: black;
+        }
         #search-query
         {
             font-style: italic;
@@ -368,4 +376,131 @@
             font-weight: bold;
             text-decoration: underline;
         }
-        
+        /*Stran za prijavo*/
+        #form_main
+        {
+            display: flex;
+            margin-bottom: 30%;
+        }
+        #form
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:10%;
+            width: 250px;
+            text-align: center;
+        }
+        #form div
+        {
+            margin-top: 20px;
+        }
+        #form input
+        {
+            height: 30px;
+            width: 90%;
+        }
+        #form_submit_inner
+        {
+            background-color:  #404040;
+            width: 50px;
+            color: white
+        }
+        /*Košarica*/
+        #cart-main
+        {
+            display: flex;
+        }
+        #cart-results
+        {
+            width: 100%;
+        }
+        .cart-item
+        {
+            display: flex;
+            box-shadow: 5px 5px 3px #828282;
+            margin-top: 30px;
+            border:#1b1b1b 1px solid;
+            justify-content: space-between;
+        }
+        .cart-item-cover
+        {
+            height: 162px;
+            width: 162px;
+        }
+        .cart-item-desc
+        {
+            margin-left: 40px
+        }
+        .cart-item-desc div
+        {
+            color:#404040;
+            font-size: 20px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .cart-item-title a
+        {
+            color:#1b1b1b;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .cart-item-left
+        {
+            display: flex;
+        }
+        .cart-item-buttons
+        {
+            width:162px;
+        }
+        .cart-item-buttons button
+        {
+            width: 120px;
+            height: 40px;
+            margin-top: 20%;
+            background-color: #404040;
+            color: white;
+            border-radius: 3px;
+        }
+        .cart-item-buttons button:hover
+        {
+            background-color: rgb(205, 35, 1);
+            border-color: rgb(160, 27, 0);
+        }
+        #cart-checkout
+        {
+            border: 1px #1b1b1b solid;
+            width: 30%;
+            margin-left: 30px;
+            margin-top: 30px;
+            padding: 15px;
+            height: auto;
+        }
+        h3
+        {
+            padding-top: 0px;
+        }
+        #cart-checkout div
+        {
+            margin-bottom: 5px;
+        }
+        #checkout-price
+        {
+            font-size: 25px;
+            margin-top: 25px;
+            font-weight: 1000;
+        }
+        #cart-checkout button
+        {
+            margin-top: 25px;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(0, 160, 0);
+            color: white;
+            border-radius: 3px;
+            border-color: rgb(0, 138, 0);
+        }
+        #cart-checkout button:hover
+        {
+            background-color: rgb(66, 213, 66);
+            border-color: rgb(63, 186, 63);
+        }
